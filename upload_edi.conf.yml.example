@@ -1,0 +1,22 @@
+base_dir: /opt/koha-edifact/vendors
+email: gunda@ub.gu.se
+
+vendors:
+  Dawson:
+    host: ftp.dawsonbooks.co.uk
+    port: '21'
+    server_dir: '.'
+    user: <user>
+    pass: <pass>
+  Delbanco:
+    host: ftp.delbanco.de
+    port: '21'
+    server_dir: '.'
+    user: <user>
+    pass: <pass>
+  Adlibris:
+    host: dataftp.adlibris.com
+    port: '21'
+    server_dir: '.'
+    user: <user>
+    pass: <pass>
