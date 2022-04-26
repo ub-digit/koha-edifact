@@ -64,23 +64,11 @@ else {
 }
 print "Startar $vendor\n";
 
-use Data::Dumper;
-
-print Dumper($vendor, $host, $port, $server_dir, $user, $pass);
-
 my $orig_dir = "${base}/${vendor}";
 my $up_dir = "${base}/${vendor}/messages";
 my $down_dir = "${base}/${vendor}" . "_down";
 my $archive_dir = "${base}/${vendor}/archive/${idag}";
 my $error_dir = "${base}/${vendor}/error/";
-
-print "\n\n";
-
-print Dumper($orig_dir, $up_dir, $down_dir, $archive_dir, $error_dir);
-
-# TODO REMOVE
-exit(1);
-
 
 my @cklista = ();
 #$pelle = `mv $orig_dir/*.CEP $up_dir/`;
